@@ -1,0 +1,46 @@
+﻿Сборка начата 01.07.2018 21:29:51.
+     1>Проект "C:\Programs\Visual c++\BulletHell\BulletHell\BulletHell.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.4.2\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D SFML_DYNAMIC /D _MBCS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Hero.cpp
+         Hero.cpp
+     1>Hero.cpp(50): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(52): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(80): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(82): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(108): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(110): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(135): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(137): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(307): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+     1>Hero.cpp(310): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(326): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(339): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Hero.cpp(376): warning C4101: mouse: неиспользованная локальная переменная
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Programs\Visual c++\BulletHell\Release\BulletHell.exe" /NOLOGO /LIBPATH:"C:\SFML-2.4.2\lib" "sfml-main.lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Programs\Visual c++\BulletHell\Release\BulletHell.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Programs\Visual c++\BulletHell\Release\BulletHell.lib" /MACHINE:X86 /SAFESEH Release\Animation.obj
+         Release\Bullet.obj
+         Release\EndMenu.obj
+         Release\Enemy.obj
+         Release\enemyPurple.obj
+         Release\enemySuicide.obj
+         Release\FindWay.obj
+         Release\FindWayTest.obj
+         Release\GameMenu.obj
+         Release\Hero.obj
+         Release\Level.obj
+         Release\main.obj
+         Release\MainMenu.obj
+         Release\MapGenerator.obj
+         Release\MiniMap.obj
+         Release\Room.obj
+         Release\Spawner.obj
+         Release\wallTest.obj
+            Создается библиотека C:\Programs\Visual c++\BulletHell\Release\BulletHell.lib и объект C:\Programs\Visual c++\BulletHell\Release\BulletHell.exp
+         Создание кода
+         Создание кода завершено
+         BulletHell.vcxproj -> C:\Programs\Visual c++\BulletHell\Release\BulletHell.exe
+     1>Сборка проекта "C:\Programs\Visual c++\BulletHell\BulletHell\BulletHell.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.53

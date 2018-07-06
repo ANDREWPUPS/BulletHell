@@ -1,0 +1,39 @@
+﻿Сборка начата 02.07.2018 15:51:49.
+     1>Проект "C:\Programs\Visual c++\BulletHell\BulletHell\BulletHell.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_DYNAMIC /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(69): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(104): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(115): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(121): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(234): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(236): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(242): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(255): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\programs\visual c++\bullethell\bullethell\main.cpp(64): warning C4715: handlePress: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Programs\Visual c++\BulletHell\Debug\BulletHell.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.4.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Programs\Visual c++\BulletHell\Debug\BulletHell.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Programs\Visual c++\BulletHell\Debug\BulletHell.lib" /MACHINE:X86 Debug\Animation.obj
+         Debug\Bullet.obj
+         Debug\EndMenu.obj
+         Debug\Enemy.obj
+         Debug\enemyPurple.obj
+         Debug\enemySuicide.obj
+         Debug\FindWay.obj
+         Debug\FindWayTest.obj
+         Debug\GameMenu.obj
+         Debug\Hero.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MainMenu.obj
+         Debug\MapGenerator.obj
+         Debug\MiniMap.obj
+         Debug\Room.obj
+         Debug\Spawner.obj
+         Debug\wallTest.obj
+         BulletHell.vcxproj -> C:\Programs\Visual c++\BulletHell\Debug\BulletHell.exe
+     1>Сборка проекта "C:\Programs\Visual c++\BulletHell\BulletHell\BulletHell.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.30
